@@ -1,44 +1,43 @@
-# Contributing to Pro Git (2nd Edition)
+# การมีส่วนร่วมกับ Pro Git (ฉบับที่สอง)
 
-## Licensing your work to us
+## การอนุญาตให้ใช้ผลงานของคุณ
 
-When you open a pull request, you agree to provide your work under the [project license](LICENSE.asc).
-Also, you agree to grant such license of your work as is required for the purposes of future print editions to @ben and @schacon.
-Should your changes appear in a printed edition, you'll be included in the [contributors list](book/contributors.asc).
+เมื่อคุณส่งคำขอแก้ไข (pull request) ถือว่าคุณตกลงที่จะให้สิทธิ์ใช้ผลงานของคุณ ภายใต้[สัญญาอนุญาตของโครงการ](LICENSE.asc)
+นอกจากนี้ คุณยังตกลงที่จะให้สิทธิ์ใช้งานผลงานของคุณตามที่จำเป็นเพื่อการจัดพิมพ์ในอนาคตแก่ @ben และ @schacon
+ถ้าการเปลี่ยนแปลงของคุณปรากฏในฉบับพิมพ์ คุณจะถูกรวมอยู่ใน[รายชื่อผู้มีส่วนร่วม](book/contributors.asc)
 
-## Signaling an Issue
+## การแจ้งปัญหา
 
-Search for similar issues, before creating a new issue.
+โปรดค้นหาปัญหาที่คล้ายคลึงกันก่อนที่จะสร้างปัญหาใหม่
 
-Also, if this issue has been spotted on the git-scm.com site, cross-check that the issue is present in the pdf version.
-The issue may have already been corrected in the source files, but not yet deployed to the git-scm.com site.
+นอกจากนี้ ถ้าพบปัญหานี้บนไซต์ git-scm.com ให้ตรวจสอบอีกครั้งว่าปัญหายังคงมีอยู่ในรุ่น PDF หรือไม่
+เนื่องจากปัญหาอาจได้รับการแก้ไขไปแล้วในไฟล์ต้นฉบับ แต่ยังไม่ถูกนำไปใช้งานจริงบนไซต์ git-scm.com
 
-## Small Corrections
+## การแก้ไขเล็กน้อย
 
-Errata and basic clarifications will be accepted if we agree that they improve the content.
-You can also open an issue so that we can discuss how or if the issue needs to be addressed.
+เรายินดีรับคำชี้แจงแก้ไขข้อผิดพลาดและคำชี้แจงพื้นฐานเพิ่มเติม ถ้าเราเห็นพ้องกันว่าคำชี้แจงเหล่านั้นช่วยปรับปรุงเนื้อหาให้ดียิ่งขึ้น
+นอกจากนี้ คุณยังสามารถเปิดประเด็นปัญหาเพื่อให้เราได้หารือกันว่าปัญหาดังกล่าวต้องแก้ไขอย่างไร หรือจำเป็นต้องแก้ไขใดๆไหม
 
-If you've never done this before, the [flow guide](https://docs.github.com/en/get-started/quickstart/github-flow) might be useful.
+ถ้าคุณไม่เคยทำมาก่อน [คู่มือขั้นตอนการทำงาน](https://docs.github.com/en/get-started/quickstart/github-flow)อาจเป็นประโยชน์
 
-## Large Rewrites
+## การปรับปรุงครั้งใหญ่
 
-Open an issue for discussion before you start.
-A large rewrite tends to be very subjective, often only clarifying things for a small amount of readers.
-Professional copy editors have already reviewed this content multiple times.
-It's unlikely that your prose is going to be *so* much better that it's worth changing large portions of text.
+ควรเปิดประเด็นเพื่อหารือกันก่อนที่คุณจะเริ่มลงมือแก้ไข
+เนื่องจากการปรับปรุงเนื้อหาครั้งใหญ่มีแนวโน้มที่จะเป็นเรื่องส่วนตัวมาก และมักจะช่วยให้ผู้อ่านเพียงส่วนน้อยเข้าใจเนื้อหาได้ชัดเจนขึ้นเท่านั้น
+เนื้อหานี้ได้รับการตรวจทานจากบรรณาธิการมืออาชีพมาแล้วหลายครั้ง จึงไม่น่าเป็นไปได้ที่งานเขียนของคุณจะดีขึ้น*มาก*จนคุ้มค่ากับการเปลี่ยนแปลงเนื้อหาส่วนใหญ่
 
-## Figures
+## รูปภาพ
 
-The images in this book are generated using [Sketch 3](https://www.sketch.com/), with the [included sketchbook file](diagram-source/progit.sketch).
+ภาพประกอบในหนังสือเล่มนี้ถูกสร้างขึ้นโดยใช้ [Sketch 3](https://www.sketch.com/) โดยใช้[ไฟล์สมุดร่าง (sketchbook) ที่แนบมาด้วย](diagram-source/progit.sketch)
 
-To create a figure:
+เมื่อต้องการสร้างรูปภาพ:
 
-1. Add a page to the sketchbook.
-Use the included symbols wherever possible.
-2. Add a "slice" to your page.
-Name the slice so that it matches the destination PNG filename, relative from the root of the source directory.
-3. Set your slice to export at "800w".
+1. เพิ่มหน้าลงในสมุดร่าง
+ใช้สัญลักษณ์ที่ให้มาด้วยทุกครั้งที่ทำได้
+2. เพิ่ม "ส่วนย่อย" ลงในหน้าของคุณ
+ตั้งชื่อส่วนย่อยให้ตรงกับชื่อไฟล์ PNG ปลายทาง โดยอ้างอิงจากรากของไดเรกทอรีต้นทาง
+3. ตั้งค่าส่วนย่อยของคุณให้ส่งออกที่ "800w"
 
-## Translations
+## งานแปล
 
-If you want to contribute to translating Pro Git into your language, take a look at [TRANSLATING.md](TRANSLATING.md).
+ถ้าคุณต้องการมีส่วนร่วมในการแปล Pro Git เป็นภาษาของคุณ โปรดดูที่ไฟล์ [TRANSLATING.md](TRANSLATING.md)
